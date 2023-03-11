@@ -1,0 +1,2 @@
+function t(a,n){if(a==null)return null;if(typeof a=="string")return{name:"file_data",data:a};if(Array.isArray(a))for(const r of a)t(r,n);else a.is_file&&(a.data=n+"file="+a.name);return a}function s(a,n){if(a==null)return null;if(typeof a=="string")return{name:"file_data",data:a};if(Array.isArray(a))for(const r of a)t(r,n);else a.is_file&&(a.data=n+"file="+a.name);return a}export{s as a,t as n};
+//# sourceMappingURL=utils.ac212c5e.js.map
