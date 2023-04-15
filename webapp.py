@@ -14,7 +14,7 @@ import base64
 
 ## Params ##
 # Set Key
-openai.api_key = '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'
+openai.api_key = <hide>
 
 # Output Limit
 max_tokens = 2000
